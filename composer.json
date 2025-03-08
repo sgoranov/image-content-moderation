@@ -1,0 +1,20 @@
+{
+    "name": "sgoranov/image-content-moderation",
+    "description": "A machine learning project using Rubix ML to build and use a model for detecting inappropriate image content.",
+    "version": "1.0.0",
+    "author": "Simeon Goranov",
+    "license": "MIT",
+    "require": {
+        "php": "^8.0",
+        "rubix/ml": "^2.5",
+        "psr/log": "^3.0",
+        "monolog/monolog": "^3.8",
+        "rubix/tensor": "^3.0",
+        "ext-gd": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bin\\": "src/Bin"
+        }
+    }
+}
